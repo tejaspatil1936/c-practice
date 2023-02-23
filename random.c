@@ -1,11 +1,12 @@
 #include <stdio.h>
 int main() {
-    int a,b,c;
-    printf("after exchanging");
-    a = c;
-    b = a;
-    b = c;
-    scanf("%d %d %d",&a,&b,&c);
-    printf("%d %d %d",a,b,c);
+    int radius,circumfarence,area;
+    printf("enter value of radius");
+    scanf("%d",&radius);
+    int pi = 3.14;
+    circumfarence = 2 * pi * radius;
+    area = pi * radius * radius;
+    printf("circumfarence of circle = %d \n",circumfarence);
+    printf("area of circle = %d",area);
     return 0;
 }
